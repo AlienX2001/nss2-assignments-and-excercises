@@ -1,6 +1,6 @@
 ## What it does?
 
-This kernel module hooks into the pf(packet filter) firewall of FreeBSD 13.1 and detects if there are TCP packets inbound greater than or equal to port 1024.
+This kernel module hooks into the pf(packet filter) firewall of FreeBSD 13.1 and detects if there are TCP/UDP packets inbound greater than or equal to port 1024.
 This module also detects any ping scans from remote hosts.
 
 ## How to load this module?
